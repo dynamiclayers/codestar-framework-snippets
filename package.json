@@ -2,13 +2,34 @@
   "name": "codestar-framework-snippets",
   "displayName": "Codestar Framework Snippets",
   "description": "Codestar framework code snippets extension for vscode.",
-  "version": "0.0.1",
+  "icon": "images/logo.png",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.81.0"
   },
+  "publisher": "DynamicLayers",
+	"author": {
+		"name": "DynamicLayers"
+	},
+  "keywords": [
+		"WordPress",
+		"Codestar",
+		"Codestar Framework",
+		"Options Panel",
+		"Codestar Controls",
+		"Controls",
+		"options framework",
+    "Snippets",
+    "DynamicLayers"
+	],
   "categories": [
     "Snippets"
   ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dynamiclayers/codestar-framework-snippets.git"
+  },
   "contributes": {
     "snippets": [
       {

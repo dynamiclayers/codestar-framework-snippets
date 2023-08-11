@@ -1,65 +1,37 @@
-# codestar-framework-snippets README
+# Codestar Framework Snippets
 
-This is the README for your extension "codestar-framework-snippets". After writing up a brief description, we recommend including the following sections.
+![Version](https://img.shields.io/visual-studio-marketplace/v/dynamiclayers.codestar-framework-snippets?style=flat-square)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/dynamiclayers.codestar-framework-snippets?style=flat-square)
+![Rating](https://img.shields.io/visual-studio-marketplace/r/dynamiclayers.codestar-framework-snippets?style=flat-square)
 
-## Features
+This will help you to build the options page faster to autocomplete codestar framework controls/fields. There is included all codestar framework options fields available to autocomplete.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### How to use
 
-For example if there is an image subfolder under your extension project workspace:
+Type `csf` in your PHP plugin file to see available autocompletions in work.
 
-\!\[feature X\]\(images/feature-x.png\)
+### Install instructions
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Install via Extension Marketplace
 
-## Requirements
+-   Open Command on Visual Studio Code (Ctrl+Shift+P on Windows or Cmd+Shift+P on Mac/OSX)
+-   > ext install codestar-framework-snippets
+-   Wait until install complete and restart VS Code
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### Features
 
-## Extension Settings
+Autocomplete for:
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+|   Fields/Controls                  |   Trigger        |
+| :-------------------------: | :--------------: |
+| Text                        | csftext           |
 
-For example:
 
-This extension contributes the following settings:
+### Details
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- License: GPLv3
+- Version: 1.0.0
+- Extension URI: https://github.com/dynamiclayers/codestar-framework-snippets
+- [Report Issues](https://github.com/dynamiclayers/codestar-framework-snippets/issues)
 
 **Enjoy!**
