@@ -1,0 +1,20 @@
+{
+  "name": "codestar-framework-snippets",
+  "displayName": "Codestar Framework Snippets",
+  "description": "Codestar framework code snippets extension for vscode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
